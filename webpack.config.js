@@ -236,7 +236,11 @@ const config = [
   library_binding("lfx-bouncemarker"),
 
 
-  library_binding("map-widget-style")
+  library_binding("map-widget-style"),
+
+  // "leaflet-easyPrint": "https://github.com/rowanwins/leaflet-easyPrint",
+  library_prod("leaflet-easyPrint", "lfx-bouncemarker"),
+  library_binding("lfx-bouncemarker")
 
 
 
