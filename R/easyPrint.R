@@ -26,6 +26,9 @@ addEasyPrint <- function(map, position = "topleft", exportOnly = TRUE) {
       title = "Export map", 
       position = position,
       exportOnly = exportOnly,
+      hideControlContainer = FALSE,
+      # hidden = "false",
+      # hideClasses = c('div.leaflet-top.leaflet-left'),
       sizeModes = c('A4Portrait', 'A4Landscape')
       )))
 }
